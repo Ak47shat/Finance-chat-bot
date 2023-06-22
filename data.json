@@ -1,0 +1,110 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hey",
+                "Hello",
+                "Whats up?",
+                "Hi"
+            ],
+            "responses": [
+                "Hello sir!",
+                "Hey Aryan!"
+            ]
+        },
+        {
+            "tag": "plot_chart",
+            "patterns": [
+                "I want you to plot a stock price!",
+                "Please plot a chart"
+            ],
+            "responses": [
+                "Plotting chart"
+            ]
+        },
+        {
+            "tag": "add_portfolio",
+            "patterns": [
+                "Add a stock to my portfolio",
+                "Add a stock"
+            ],
+            "responses": [
+                "Adding stock"
+            ]
+        },
+        {
+            "tag": "remove_portfolio",
+            "patterns": [
+                "Remove a stock from my portfolio",
+                "Remove a stock"
+            ],
+            "responses": [
+                "Removing stock"
+            ]
+        },
+        {
+            "tag": "show_portfolio",
+            "patterns": [
+                "Show me my investments",
+                "Show me my portfolio"
+            ],
+            "responses": [
+                "Showing portfolio"
+            ]
+        },
+        {
+            "tag": "stock_price",
+            "patterns": [
+                "I want to know the price of a stock!",
+                "Show me the price of a stock"
+            ],
+            "responses": [
+                "Showing the price of the stock"
+            ]
+        },
+        {
+            "tag": "portfolio_worth",
+            "patterns": [
+                "How much is my portfolio worth?",
+                "What is the value of my portfolio"
+            ],
+            "responses": [
+                "Portfolio Worth"
+            ]
+        },
+        {
+            "tag": "portfolio_gains",
+            "patterns": [
+                "How is my portfolio performing?",
+                "How are my gains"
+            ],
+            "responses": [
+                "Portfolio Gains"
+            ]
+        },
+        {
+            "tag": "prediction",
+            "patterns": [
+                "predict stock prices",
+                "predict stocks"
+            ],
+            "responses": [
+                "Predicting Future Prices"
+            ]
+        },
+        {
+            "tag": "Bye",
+            "patterns": [
+                "Bye",
+                "goodbye",
+                "stop",
+                "I have to go",
+                "end"
+            ],
+            "responses": [
+                "Goodbye"
+            ]
+        }
+    ]
+}
