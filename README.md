@@ -1,1 +1,1 @@
-# Finance-chat-bot
+This this the finance ai assistant (chat bot), which maintain the stock portfolio of the user. The software uses machine learning algorithms to predice the future stock prices according to the trained data set. The software is capable of performing different functions such as add portfolio, remove portfolio, portfolio worth, portfolio gains, stock prices, plot chart of candle sticks, predict future stock prices according to the text input given by the user.
